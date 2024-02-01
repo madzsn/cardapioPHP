@@ -1,7 +1,8 @@
 body {
     font-family: 'Nunito', sans-serif;
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
+    
 }
 
 header {
@@ -80,6 +81,11 @@ text-shadow: none;
 img {
     border-radius: 40px;
     max-width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 #total {
