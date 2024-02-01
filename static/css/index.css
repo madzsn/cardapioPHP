@@ -1,0 +1,91 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 10;
+    padding: 10;
+}
+
+header {
+    background-color: rgba(127, 255, 212, 0.447);
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'monospace'
+}
+
+section {
+    margin: 50px;
+    
+}
+
+footer {
+    background-color: rgb(127, 255, 212);
+    color: #9fa803;
+    text-align: center;
+    padding: 0.0em;
+    border-top: 1px solid;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.Send {
+background: midnightblue;
+color: white;
+border-style: outset;
+border-radius: 20px;
+border-color: #15425c;
+height: 40px;
+width: 100px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}
+
+.Send:hover {
+background: rgb(69, 69, 201);
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+
+#limpar {
+background: midnightblue;
+color: white;
+border-style: outset;
+border-radius: 20px;
+border-color: #15425c;
+height: 40px;
+width: 100px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}
+
+#limpar:hover {
+background: rgb(69, 69, 201);
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+
+img {
+    border-radius: 40px;
+    max-width: 50%;
+}
+
+#total {
+    background-color: #a4abdd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
