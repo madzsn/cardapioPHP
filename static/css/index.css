@@ -2,11 +2,12 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 10px;
     padding: 10px;
+    justify-content: center;
     
 }
 
 header {
-    background-color: rgba(127, 255, 212, 0.447);
+    background-color: rgb(44, 71, 135);
     padding: 1em;
     text-align: center;
 }
@@ -26,7 +27,7 @@ section {
 }
 
 footer {
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(44, 71, 135);
     color: #9fa803;
     text-align: center;
     padding: 0.0em;
@@ -95,3 +96,71 @@ img:hover {
 }
 
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+section {
+    margin: 50px;
+    animation: fadeIn 2.0s ease-in-out; 
+}
+
+#myBtn {
+background: midnightblue;
+color: white;
+border-style: outset;
+border-radius: 20px;
+border-color: #15425c;
+height: 40px;
+width: 50px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+position: fixed;
+}
+
+#myBtn:hover {
+background: rgb(69, 69, 201);
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+
+@keyframes sendAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.iten-of-smosh {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.iten-of-smosh:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); 
+}
+
+article p {
+    background-color: #293ce524;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resumo {
+    box-shadow: 0 4px 8px 0 rgba(81, 93, 185, 0.461);
+}

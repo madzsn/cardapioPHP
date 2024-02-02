@@ -17,6 +17,14 @@
         </nav>--> 
     </header>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <select id="sort"> 
+        <option value="default">Default</option>
+        <option value="price">Price</option>
+        <option value="name">Name</option>
+    </select>
+    
     <section class="ThEras">
         <!-- Inicio dos itens do Smosh Eras Clothing-->
         
@@ -238,9 +246,10 @@
     <section class="resumo">
         <h4>Order Summary</h4>
         <p id="total">Total: $0.00</p>
-        <button class="Send" onclick="SendOrder()">Send Order</button>
+        <button class="Send" onclick="SendOrder()">Send Order<i class="fa fa-shopping-cart"></i></button>
         <button id="limpar" onclick="ClearOrder()">Clear</button>
     </section><br><br>
+    
 
 
     <footer>
